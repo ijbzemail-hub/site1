@@ -60,7 +60,11 @@ ul{
     height: 100%;
 }
 
-.nav_li{
+.a_nav{
+    color: #fff;
+}
+
+.a_nav{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,9 +74,13 @@ ul{
     padding: 0 10px;
 }
 
-.nav_li:hover{
+.a_nav:hover{
+    display: flex;
+    
     background-color: var(--main_blue);
     color: var(--write);
+    height: 75px;
+
 }
 
 .header_logo1_img{
